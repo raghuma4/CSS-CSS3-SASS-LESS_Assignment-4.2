@@ -1,0 +1,23 @@
+/* This css file is generated using SASS compiler
+  Refer mainstyle.scss and _partial.scss file for reference */
+
+.divmessage, #div1, #div2, #div3 {
+    padding: 14px 12px;
+    margin: 16px 14px;
+    color: white;
+}
+
+#div1 {
+    border-radius: 8px;
+    background-color: grey;
+}
+
+#div2 {
+    border-radius: 12px;
+    background-color: blue;
+}
+
+#div3 {
+    border-radius: 16px;
+    background-color: green;
+}

@@ -1,0 +1,8 @@
+/* function to changed border-radius and background color
+   provide radious and color as input */
+
+@mixin changeradiusandbgcolor($radius, $color)
+{
+	border-radius:$radius;
+	background-color: $color;
+}

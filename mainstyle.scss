@@ -1,0 +1,35 @@
+
+/*  import partial.scss file using @import attribute */
+
+@import '_partial'
+
+.divmessage
+{
+	padding: 14px 12px;
+    margin: 16px 14px;
+    color: white;
+}
+
+/* Call the method written in partial.scss file using @include attribute
+   and to have divmessage class style use @extend attribute	 */
+
+#div1
+{
+	@include changeradiusandbgcolor(8px, grey);
+	@extend .divmessage;
+}
+
+#div2
+{
+	@include changeradiusandbgcolor(12px, blue);
+	@extend .divmessage;
+}
+
+#div3
+{
+	@include changeradiusandbgcolor(16px, green);
+	@extend .divmessage;
+}
+
+
+ 
